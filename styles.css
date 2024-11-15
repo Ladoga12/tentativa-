@@ -1,0 +1,176 @@
+/* Reset de estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h2 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #5cb85c;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Guias de Montagem */
+#guias {
+    padding: 40px;
+    background-color: white;
+}
+
+#guias h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.guide-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.guide-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
+
+.guide-item h3 {
+    font-size: 20px;
+}
+
+.guide-item a {
+    text-decoration: none;
+    color: #5cb85c;
+}
+
+/* Cálculo de Fonte */
+#calculo {
+    padding: 40px;
+    background-color: #e9ecef;
+}
+
+#calculo h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#calculadora-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#calculadora-form label {
+    font-size: 16px;
+}
+
+#calculadora-form input {
+    padding: 8px;
+    width: 200px;
+}
+
+#calculadora-form button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#calculadora-form button:hover {
+    background-color: #4cae4c;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Fórum e Tira Dúvidas */
+#forum, #tira-duvidas {
+    padding: 40px;
+    background-color: white;
+}
+
+.faq-container ul {
+    list-style-type: none;
+}
+
+.faq-container li {
+    margin-bottom: 10px;
+}
+
+.faq-container a {
+    text-decoration: none;
+    color: #5cb85c;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
