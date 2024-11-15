@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de aprendizado sobre montagem e manutenção de computadores com segurança e qualidade">
+    <title>Montando Seu PC</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Montando Seu PC</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#guias">Guias de Montagem</a></li>
+                <li><a href="#calculo">Cálculo de Fonte</a></li>
+                <li><a href="#forum">Fórum</a></li>
+                <li><a href="#tira-duvidas">Tira Dúvidas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="home" class="banner">
+        <h2>Aprenda a Montar Seu Próprio PC com Segurança e Qualidade</h2>
+        <p>Guias passo a passo para você montar seu computador com confiança!</p>
+        <a href="#guias" class="cta-button">Comece Aqui</a>
+    </section>
+
+    <!-- Guias de Montagem -->
+    <section id="guias">
+        <h2>Guias de Montagem</h2>
+        <div class="guide-container">
+            <div class="guide-item">
+                <h3>Guia Completo de Montagem</h3>
+                <p>Aprenda como montar seu PC do zero com segurança.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="guide-item">
+                <h3>Instalação de Hardware</h3>
+                <p>Saiba como instalar a placa-mãe, processador e outros componentes.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cálculo de Eficiência de Fonte -->
+    <section id="calculo">
+        <h2>Cálculo de Eficiência de Fonte de Alimentação</h2>
+        <form id="calculadora-form">
+            <label for="processador">Processador (W):</label>
+            <input type="number" id="processador" required>
+            <label for="placa-video">Placa de Vídeo (W):</label>
+            <input type="number" id="placa-video" required>
+            <button type="submit">Calcular</button>
+        </form>
+        <p id="resultado"></p>
+    </section>
+
+    <!-- Fórum -->
+    <section id="forum">
+        <h2>Fórum de Perguntas</h2>
+        <div class="forum-container">
+            <p>Participe do nosso fórum e tire suas dúvidas!</p>
+            <button onclick="window.location.href='#'">Acessar Fórum</button>
+        </div>
+    </section>
+
+    <!-- Tira Dúvidas -->
+    <section id="tira-duvidas">
+        <h2>Tira Dúvidas</h2>
+        <div class="faq-container">
+            <h3>Perguntas Frequentes</h3>
+            <ul>
+                <li><a href="#">Como escolher uma boa fonte de alimentação?</a></li>
+                <li><a href="#">Como saber se os componentes são compatíveis?</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Montando Seu PC. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
